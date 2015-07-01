@@ -9,7 +9,7 @@ Glossário de comandos
 :Data: 01/07/2015
 
 cat
-  Descrição do comando
+  Imprime na tela no conteúdo do arquivo.
 
 
 cd
@@ -41,7 +41,8 @@ HISTTIMEFORMAT="%d/%m/%y
 
 
 hostname
-  Descrição do comando
+  Comando que exibe o nome da máquina. 
+        Ex.: hostname
 
 
 ifconfig
