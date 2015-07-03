@@ -19,6 +19,13 @@ cd
              cd /home/20121144010273/downloads
              cd ..: um diretório acima do atual;
 
+
+cp
+  Copia arquivos e diretórios.
+        Ex.: file novonome = faz cópia exata do arquivo file dando-lhe o nome de novonome.
+             echo novonome
+
+
 cowsay
   Troca mensagens com animações de vacas e outros.
         Ex.: cowsay -l: exibe todos os tipos de animações;
@@ -46,11 +53,13 @@ exit
 
 
 help
-  Descrição do comando
+  Exibe informações sobre os comandos.
+        Ex.: cowsay -help (apresenta o arquivo ajuda do cowsay);
 
 
-HISTTIMEFORMAT="%d/%m/%y
-  Descrição do comando
+HISTTIMEFORMAT="%d/%m/%y"
+  Adiciona data e hora ao comando history.
+        Ex.: HISTTIMEFORMAT="%d/%m/%y"
 
 
 hostname
@@ -86,8 +95,10 @@ mkdir
         Ex.: mkdir sylvia (criou a pasta sylvia);
 
 
-nome="fulano
-  Descrição do comando
+nome="fulano"
+  Cria e atribui valor a variável de ambiente: fulano.
+        Ex.: nome = "sylvia"
+             echo $nome;
 
 
 passswd
@@ -100,35 +111,57 @@ pwd
         Ex.: pwd
 
 set
-  Descrição do comando
+  Define as variáveis da sessão, listando todas as variáveis de ambiente.
+        set
+        HOSTNAME=switch
+        HOSTNAME=i486
 
 
 tree
-  Descrição do comando
+  Exibe todos os diretórios e arquivos em formato de árvore.
+        Ex.: tree
 
 
 tty
-  Descrição do comando
+  Informa qual o nome do arquivo conectado a entrada padrão do terminal.
+        Ex.: tty
 
 
 vim
-  Descrição do comando
+  Trata-se de um editor de texto, abre um arquivo e o edita; exibe um arquivo e insere conteúdos.
+        Ex.: :a : insere e edita valores;
+             Esc:x : salva e fecha;
+             Esc:q : fecha o vim;
 
 
 wait
-  Descrição do comando
+  Só executa um comando depois que outro termina.
+        Ex.: wait
 
 
 wall
-  Descrição do comando
+  Envia uma mensagem para área de notificação do sistema gráfico; envia uma mensagem para os usuários.
+        Ex.: $ echo "Olá" | wall
 
 
 which
-  Descrição do comando
+  Busca por arquivos no sistema de forma muito rápida (busca por executáveis) e exibe o caminho completo na hierarquia de diretórios para os comandos do sistema.
+        Ex.: which firefox
+             which sh
 
 
 while
-  Descrição do comando
+  Laço de repetição; executa um código quando sua condição for true (verdadeira).
+        Ex.: while <condição>;do
+                  comando
+            done;
+        Ex.2: while true;do
+                  echo "Olá"
+              done;
+        Ex.3: name = "Olá"
+              while [$name = "Olá"];do
+                  echo "Olá" echo "BLZ?"
+              done
 
 
 who
@@ -144,6 +177,7 @@ whoami
              sylvia
 
 
-    write
-        Descrição do comando
+write
+  Envia mensagens para os usuários que estejam logados no sistema.
+        Ex.: write jurandy "Olá" echo "Olá";
 
